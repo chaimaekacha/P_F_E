@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home">
       
-      {/* Hero Section (Section Principale) */}
+  
       <section className="hero">
         <div className="hero-content">
           
@@ -15,11 +15,9 @@ function Home() {
           {/* Barre de recherche  */}
           <div className="search-container">
             <div className="input-group">
-              <i className="fa-solid fa-location-dot icon"></i>
-              <input type="text" placeholder="Ville (ex: Casablanca)" />
+*              <input type="text" placeholder="Ville " />
             </div>
             <div className="input-group border-left">
-              <i className="fa-solid fa-wrench icon"></i>
               <select>
                 <option>Choisir un service</option>
                 <option>Plombier</option>
@@ -30,13 +28,13 @@ function Home() {
               
             </div>
             <button className="btn-search">
-              <i className="fa-solid fa-magnifying-glass"></i> Rechercher
+               Rechercher
             </button>
           </div>
         </div>
       </section>
 
-      {/* Services populaires */}
+      {/* Services populaires  */}
       <section className="services">
         <div className="section-header">
           <div className="icon-box red">
@@ -47,22 +45,20 @@ function Home() {
         <p className="subtitle">Les catégories les plus demandées cette semaine</p>
 
         <div className="service-cards">
-          {/* Carte 1 */}
+        
           <div className="card">
             <div className="card-icon"><i className="fa-solid fa-faucet-drip"></i></div>
             <h3>Plombier</h3>
           </div>
-          {/* Carte 2 */}
+      
           <div className="card">
             <div className="card-icon"><i className="fa-solid fa-bolt"></i></div>
             <h3>Électricien</h3>
           </div>
-          {/* Carte 3 */}
           <div className="card">
             <div className="card-icon"><i className="fa-solid fa-border-all"></i></div>
             <h3>Zlayji</h3>
           </div>
-          {/* Carte 4 */}
           <div className="card">
             <div className="card-icon"><i className="fa-solid fa-hammer"></i></div>
             <h3>Menuisier</h3>
@@ -70,7 +66,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Pourquoi Prom3lem (Avantages) */}
+      {/*  (Avantages) */}
       <section className="why">
         <div className="section-header">
           <div className="icon-box teal">
@@ -103,36 +99,16 @@ function Home() {
           </div>
         </div>
         <footer className="footer">
-        <div className="footer-container">
-           {/* ... contenu du footer que je t'ai donné ... */}
+        <div className="footer-container"> 
         </div>
         <div className="footer-bottom">
           
           <p>La plateforme numéro 1 au Maroc pour trouver des prestataires de confiance en un clic.</p>
-          <p>&copy; 2026 Prom3lem. Tous droits réservés.</p>
-          <div className="social-links">
-              <a href="#"><i className="fa-brands fa-facebook"></i></a>
-              <a href="#"><i className="fa-brands fa-instagram"></i></a>
-              <a href="#"><i className="fa-brands fa-linkedin"></i></a>
-            </div>
-            {/* Colonne 3: Support */}
           <div className="footer-col">
-            <h4>Support</h4>
-            <ul>
-              <li><a href="#">Aide & FAQ</a></li>
-              <li><a href="#">Comment ça marche</a></li>
-              <li><a href="#">Devenir prestataire</a></li>
-              <li><a href="#">Contactez-nous</a></li>
-            </ul>
-          </div>
-
-          {/* Colonne 4: Newsletter */}
-          <div className="footer-col">
-            <h4>Restez informé</h4>
             <p>Recevez nos meilleures offres et conseils.</p>
             <div className="newsletter">
               <input type="email" placeholder="Votre email" />
-              <button><i className="fa-solid fa-paper-plane"></i></button>
+              <button></button>
             </div>
           </div>
         </div>
