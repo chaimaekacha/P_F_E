@@ -98,26 +98,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <footer className="footer">
-        <div className="footer-container"> 
-        </div>
-        <div className="footer-bottom">
-          
-          <p>La plateforme numéro 1 au Maroc pour trouver des prestataires de confiance en un clic.</p>
-          <div className="footer-col">
-            <p>Recevez nos meilleures offres et conseils.</p>
-            <div className="newsletter">
-              <input type="email" placeholder="Votre email" />
-              <button></button>
-            </div>
-          </div>
-        </div>
-
-        <div className="footer-bottom">
-          <p>&copy; 2026 Prom3lem. Tous droits réservés. Fait avec <i className="fa-solid fa-heart"></i> au Maroc.</p>
-          
-        </div>
-      </footer>
+        
       </section>
     </div>
     
